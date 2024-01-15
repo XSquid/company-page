@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+header a {
+    font-size: 30px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+.section-header{
+    display:block;
+    width: 100%;
+    text-align: center;
+}
+.prod-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: auto;
+    background-color: grey;
+}
+
+.product {
+    width: 30%;
+    
+    background-color: aqua;
+    text-align: center;
+    height:100%;
+}
+
+.product img {
+    width: 100%;
+}
+
+.athlete-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: auto;
+    background-color:black;
+}
+
+.athletes {
+    width: 30%;
+    align-items: stretch;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.athletes img {
+    width: 100%
+}
+
+.athletes figcaption{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.athletes p {
+    color: white;
+}

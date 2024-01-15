@@ -3,6 +3,7 @@
 <html>
   <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
 
   <header>
@@ -10,25 +11,22 @@
       <h1>Weightlifting House</h1>
       <nav>
         <!-- links to different sections, we'll do three -->
-        <span>
-          Products
-        </span>
-        <span>
-          Athletes
-        </span>
-        <span>
-          Our Team
-        </span>
+        
+          <a href="#Products">Products</a>
+          <a href="#Athletes">Athletes</a>
+          <a href="#Team">Our Team</a>
+      
       </nav>
   </header>
 
   <body>
-    <section id="product-section">
-      <!-- First section, link from nav bar -->
+    <section id="product-section"><!-- Product Section -->
+
       <div class="section-header">
-        <h2>Products</h2>
+        <h2 id="Products">Products</h2>
         <p>Weightlifting house offers must-haves for any amateur or professional weightlifter!</p>
       </div>
+      <div class="prod-container">
       <div class="product">
         <h3>Neoprene Weightlifting Belts</h3>
         <p>This velcro, low profile belt offers great stability while not being as cumbersome as a regular leather belt</p>
@@ -46,20 +44,21 @@
         <p>Save your thumbs from hook grip with this tape!</p>
         <img src="img\weightlifting-tape.png">
       </div>
+    </div>
     </section>
+    <br>
 
-    <section>
-      <!-- second section, link from nav bar-->
-    </section>
 
-    <section id="athlete-section">
-      <!-- third section, link from nav bar -->
-      <h2>Athletes</h2>
-
+    <section id="athlete-section"><!-- Athlete Section -->
+      <div class="section-header">
+      <h2 id="Athletes">Athletes</h2>
+      <p>Check out these awesome athletes!</p>
+    </div>
+    <div class="athlete-container">
       <div class="athletes">
         <img src="img/karlos-nasar.jpg" alt="Karlos Nassar IWF Grand Prix 2023 Snatch Gold">
         <figcaption>Karlos Nassar</figcaption>
-        <p>Can anyone stop the young Bulgarian phenom?</p>
+        <p>Can anyone stop the young Bulgarian phenom? The 89kg mens division is certainly making him work for it!</p>
       </div>
 
       <div class="athletes">
@@ -73,10 +72,12 @@
         <figcaption>Lasha Talakhadze</figcaption>
         <p>The GOAT of weighlifting, will he be the first to break the 500kg total?</p>
       </div>
+    </div>
     </section>
+    <br>
     
-    <section id="team-section">
-      <h3>The Weightlifting House Team</h3>
+    <section id="team-section"><!-- Team Section -->
+      <h3 id="Team">The Weightlifting House Team</h3>
       
       <div class="team-member">
         <img src="img/seb-ostrowicz.png" alt="Seb Ostrowicz, Founder of Weightlifting House">
@@ -97,3 +98,11 @@
     </footer>
   </body>
 </html>
+
+<!-- todo:
+Complete the header section, space the links properly. Put them in a flexbox, space them into 1/3. Put a picture spacer between the header and the products page section. 
+Do the same spacer picture for each section, doesnt have to be large. could be something like a barbell?
+Finish the team section, can copy CSS from one of the other sections for layout.
+Add footer section
+
+Change background of each area, make it look not ugly. after that should be good for this project-->
