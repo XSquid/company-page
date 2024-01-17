@@ -1,14 +1,31 @@
 header{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-image: url("img/weight-background.jpg");
 }
 
 h1{
     font-size: 50px;
+    
 }
 header a {
     font-size: 30px;
 }
 
+#banner a{
+    text-decoration:none;
+    color: black
+}
+
+
+#navbar {
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: red;
+    width: 100%;
+}
 img {
     width: 150px;
     height: auto;
@@ -34,7 +51,6 @@ section {
 
 .product {
     width: 30%;
-    
     background-color: aqua;
     text-align: center;
     height:100%;
@@ -72,4 +88,19 @@ section {
 
 .athletes p {
     color: white;
+}
+
+.team-container {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: stretch;
+    width: auto;
+    background-color: grey;
+}
+
+.team-member {
+    width: 30%;
+    background-color: aqua;
+    text-align: center;
+    height:100%;
 }

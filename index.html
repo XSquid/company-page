@@ -8,14 +8,19 @@
 
   <header>
     <!-- Contain the title of the page, and a nav bar that links to different sections of the website -->
-      <h1>Weightlifting House</h1>
+   
+    <div id="banner">
+      <a href="http://weightliftinghouse.com" target="_blank"><h1>Weightlifting House</h1></a>
+    </div>
+
+  
       <nav>
         <!-- links to different sections, we'll do three -->
-        
+        <div id = 'navbar'>
           <a href="#Products">Products</a>
           <a href="#Athletes">Athletes</a>
           <a href="#Team">Our Team</a>
-      
+        </div>
       </nav>
   </header>
 
@@ -77,8 +82,10 @@
     <br>
     
     <section id="team-section"><!-- Team Section -->
+      <div class="section-header">
       <h3 id="Team">The Weightlifting House Team</h3>
-      
+    </div>
+      <div class="team-container">
       <div class="team-member">
         <img src="img/seb-ostrowicz.png" alt="Seb Ostrowicz, Founder of Weightlifting House">
         <figcaption>Seb Ostrowicz</figcaption>
@@ -90,19 +97,20 @@
         <figcaption>Max Aita</figcaption>
         <p>Having a long history in the fitness community, Max Aita has teamed up with weightlifting house to bring you Weightlifting.ai, a weightlifting program that adapts to your strength and weaknesses!</p>
       </div>
+    </div>
       
     </section>
 
     <footer>
-      <!-- link info, etc -->
+      <section class="section-header">
+      <h4>Weightlifting House</h4>
+      <span>weightliftinghouse.com</span><br>
+      <span>no copyright, this is a fan page to practice HTML, CSS and use of flexbox</span>
+    </section>
     </footer>
   </body>
 </html>
 
-<!-- todo:
-Complete the header section, space the links properly. Put them in a flexbox, space them into 1/3. Put a picture spacer between the header and the products page section. 
+<!-- todo: Put a picture spacer between the header and the products page section. 
 Do the same spacer picture for each section, doesnt have to be large. could be something like a barbell?
-Finish the team section, can copy CSS from one of the other sections for layout.
-Add footer section
-
 Change background of each area, make it look not ugly. after that should be good for this project-->
